@@ -16,7 +16,7 @@ function createTextNode(letter) {
 
 function draw() {
     body.innerHTML = '';
-    body.style.cssText = 'margin: 0; overflow: hidden; background: gray; color: #0F0; font-family: monospace; white-space: nowrap; line-height: 1.2em; font-size: 16px; position: relative;';
+    body.style.cssText = 'margin: 0; overflow: hidden; background: black; color: #0F0; font-family: monospace; white-space: nowrap; line-height: 1.2em; font-size: 16px; position: relative;';
     
     for (let i = 0; i < drops.length; i++) {
         const text = letters[Math.floor(Math.random() * letters.length)];
