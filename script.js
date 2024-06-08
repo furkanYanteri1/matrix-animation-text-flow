@@ -24,6 +24,13 @@ function draw() {
         textNode.style.position = 'absolute';
         textNode.style.top = `${drops[i] * fontSize}px`;
         textNode.style.left = `${i * fontSize}px`;
+
+        // Randomly make some characters shine
+        if (Math.random() > 0.975) {
+            textNode.style.color = 'white';
+            textNode.style.textShadow = '0 0 5px #FFF, 0 0 10px #FFF, 0 0 20px #FFF, 0 0 40px #0F0, 0 0 70px #0F0, 0 0 80px #0F0, 0 0 100px #0F0, 0 0 150px #0F0';
+        }
+
         body.appendChild(textNode);
 
         if (drops[i] * fontSize > window.innerHeight && Math.random() > 0.975) {
