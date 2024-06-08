@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: gray;
+    color: #0F0;
+    font-family: monospace;
+    white-space: nowrap;
+    line-height: 1.2em;
+    font-size: 16px;
+    position: relative;
+}
