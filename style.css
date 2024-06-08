@@ -1,7 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    background: gray;
+    background: rgb(25, 25, 25);
     color: #0F0;
     font-family: monospace;
     white-space: nowrap;
