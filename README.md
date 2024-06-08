@@ -1,5 +1,8 @@
 # What is this
 Basic html, css, js projects to demonstrate text waterfall like matrix animation 
+## Live Here
+https://furkanyanteri1.github.io/matrix-animation-text-flow/
+
 # How to run
 - Fetch/download the project, open index.html in browser
 # Consent 
